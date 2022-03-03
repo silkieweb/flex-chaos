@@ -1,0 +1,152 @@
+/* General Styles */
+
+* {
+    text-align: center;
+    color: #1F2C32;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #FFF4F3;
+}
+
+.logo {
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .8em;
+    font-size: 45px;
+}
+
+h2{
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+/* Flex 1 */
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #EEDFF7;
+    width: 70%;
+    margin: auto;
+}
+
+.instructionbox {
+    background-color: #CEAAA5;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: #EEDFF7;
+}
+
+.instructionbox p {
+    text-align: center;
+    color: #EEDFF7;
+}
+
+.flex1:hover {
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.instructionbox:hover {
+    background-color: #EEDFF7;
+}
+
+.nope {
+    color: #CEAAA5;
+}
+
+/* Flex 2 */
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #EEDFF7;
+    width: 70%;
+    margin: auto;
+}
+
+.flex2:hover {
+    align-items: stretch;
+}
+
+.box {
+    min-height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #CEAAA5;
+    margin: 20px;
+}
+
+.box:hover {
+    background-color: #1F2C32;
+    ;
+}
+
+.shrinkbox:hover {
+    background-color: #1F2C32;
+}
+
+.stretch {
+    color: #CEAAA5;
+    text-transform: uppercase;
+}
+
+/* Flex 3 */
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #EEDFF7;
+    width: 70%;
+    margin: auto;
+}
+
+.flex3:hover {
+    justify-content: space-between;
+}
+
+.shrinkbox {
+    min-height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #CEAAA5;
+    margin: 20px;
+    flex-shrink: 2;
+}
+
+.space {
+    color: #CEAAA5;
+    letter-spacing: 1.1em;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color:#1F2C32;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+#sparkles p{
+    color:#EEDFF7;
+    font-size: 12px;
+}
