@@ -144,6 +144,22 @@ h2{
     letter-spacing: 1.1em;
 }
 
+/* Flex 4*/
+
+.flex4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #EEDFF7;
+    width: 70%;
+    margin: auto;
+}
+
+.flex4:hover {
+    flex-direction: row-reverse;
+}
+
 /* Footer */
 
 footer {
