@@ -45,6 +45,10 @@ h2{
     height: 50px;
     border-radius: 20px;
     color: #EEDFF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .instructionbox p {
@@ -87,11 +91,14 @@ h2{
     border-radius: 20px;
     background-color: #CEAAA5;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box:hover {
     background-color: #1F2C32;
-    ;
 }
 
 .shrinkbox:hover {
@@ -126,6 +133,10 @@ h2{
     background-color: #CEAAA5;
     margin: 20px;
     flex-shrink: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .space {
